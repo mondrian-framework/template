@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "build"
+  },
+  "include": ["src", "tests"],
+  "exclude": ["build", "node_modules"],
+  "references": [{ "path": "../core" }]
+}

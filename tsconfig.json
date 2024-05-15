@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "noErrorTruncation": false,
+    "sourceMap": true,
+    "declaration": true,
+    "incremental": true,
+    "composite": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@monetica/interface": ["./packages/interface"],
+      "@monetica/core": ["./packages/core"],
+      "@monetica/api": ["./packages/api"]
+    }
+  },
+  "files": [],
+  "references": [
+    {
+      "path": "packages/interface"
+    },
+    {
+      "path": "packages/core"
+    },
+    {
+      "path": "packages/api"
+    }
+  ],
+  "exclude": ["**/node_modules", "build"]
+}

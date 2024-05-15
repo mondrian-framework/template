@@ -1,0 +1,27 @@
+{
+  "name": "@monetica/core",
+  "version": "0.0.0",
+  "main": "build/src/index.js",
+  "types": "build/src/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "jest --detectOpenHandles --forceExit",
+    "coverage": "jest --coverage --forceExit",
+    "generate": "prisma generate"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@types/jsonwebtoken": "9.0.5"
+  },
+  "dependencies": {
+    "@mondrian-framework/model": "2.0.41",
+    "@mondrian-framework/module": "2.0.41",
+    "@prisma/client": "5.13.0",
+    "prisma": "5.13.0",
+    "jsonwebtoken": "9.0.2",
+    "axios": "1.6.8",
+    "jwks-rsa": "3.1.0",
+    "node-cache": "5.1.2",
+    "@monetica/interface": "*"
+  }
+}
