@@ -1,5 +1,5 @@
 import { result } from '@mondrian-framework/model'
-import { functions } from '@monetica/interface'
+import { functions } from '@templatetitle/interface'
 import { authGuard, dbProvider, setTotalCountProvider } from '../providers'
 
 export const createEntity = functions.createEntity.use({ providers: { db: dbProvider }, guards: { authGuard } }).implement({

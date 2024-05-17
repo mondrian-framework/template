@@ -3,8 +3,8 @@ import { start as startCron } from '@mondrian-framework/cron'
 import { serveWithFastify as serveGraphql } from '@mondrian-framework/graphql-yoga'
 import { module as m } from '@mondrian-framework/module'
 import { serve as serveRest } from '@mondrian-framework/rest-fastify'
-import { module, EnvironmentVars } from '@monetica/core'
-import { api } from '@monetica/interface'
+import { module, EnvironmentVars } from '@templatetitle/core'
+import { api } from '@templatetitle/interface'
 import { FastifyReply, FastifyRequest, fastify } from 'fastify'
 
 function parseEnv(): EnvironmentVars {

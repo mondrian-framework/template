@@ -1,9 +1,9 @@
 {
-  "name": "@monetica/root",
+  "name": "@templatetitle/root",
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "npm run start --workspace=@monetica/api",
+    "start": "npm run start --workspace=@templatetitle/api",
     "generate": "npm run generate --workspaces --if-present",
     "build": "npm run build --workspaces --if-present",
     "test": "npm run test --workspaces --if-present",

@@ -13,9 +13,9 @@
     "composite": true,
     "skipLibCheck": true,
     "paths": {
-      "@monetica/interface": ["./packages/interface"],
-      "@monetica/core": ["./packages/core"],
-      "@monetica/api": ["./packages/api"]
+      "@templatetitle/interface": ["./packages/interface"],
+      "@templatetitle/core": ["./packages/core"],
+      "@templatetitle/api": ["./packages/api"]
     }
   },
   "files": [],

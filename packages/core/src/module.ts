@@ -1,4 +1,4 @@
-import { module as moduleInterface } from '@monetica/interface'
+import { module as moduleInterface } from '@templatetitle/interface'
 import { Functions, functions } from './functions'
 import { decoding } from '@mondrian-framework/model'
 

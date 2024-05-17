@@ -1,5 +1,5 @@
 {
-  "name": "@monetica/api",
+  "name": "@templatetitle/api",
   "version": "0.0.0",
   "scripts": {
     "build": "tsc --p tsconfig.build.json",
@@ -7,8 +7,8 @@
   },
   "keywords": [],
   "dependencies": {
-    "@monetica/core": "*",
-    "@monetica/interface": "*",
+    "@templatetitle/core": "*",
+    "@templatetitle/interface": "*",
     "@mondrian-framework/rest-fastify": "2.0.41",
     "@mondrian-framework/cron": "2.0.41",
     "@mondrian-framework/graphql-yoga": "2.0.41",

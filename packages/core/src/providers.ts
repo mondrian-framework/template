@@ -1,6 +1,6 @@
 import { result } from '@mondrian-framework/model'
 import { provider } from '@mondrian-framework/module'
-import { types } from '@monetica/interface'
+import { types } from '@templatetitle/interface'
 import { Prisma, PrismaClient } from '@prisma/client'
 import { EnvironmentVars } from './envs/envs.type'
 
