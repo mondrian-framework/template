@@ -8,10 +8,7 @@ type ContextInput = {
   envs: EnvironmentVars
   authorization?: string
   correlationId?: string
-  request: {
-    driver: 'http' | 'cron'
-    ip?: string
-  }
+  ip?: string
   setHeader: (key: string, value: string) => void
 }
 

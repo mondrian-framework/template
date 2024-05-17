@@ -1,5 +1,4 @@
 import { randomUUID } from 'crypto'
-import { result } from '@mondrian-framework/model'
 import { sdk } from '@mondrian-framework/module'
 import { module, EnvironmentVars } from '../src'
 import { Functions } from '../src/functions'

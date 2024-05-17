@@ -1,5 +1,3 @@
-import { randomUUID } from 'crypto'
-import { start as startCron } from '@mondrian-framework/cron'
 import { serveWithFastify as serveGraphql } from '@mondrian-framework/graphql-yoga'
 import { module as m } from '@mondrian-framework/module'
 import { serve as serveRest } from '@mondrian-framework/rest-fastify'
@@ -28,10 +26,7 @@ function createServer(envs: EnvironmentVars) {
       authorization: request.headers.authorization,
       envs,
       correlationId,
-      request: {
-        driver: 'http',
-        ip: request.ip,
-      },
+      ip: request.ip,
       setHeader: (key: string, value: string) => reply.header(key, value),
     }
   }
@@ -67,18 +62,6 @@ function createServer(envs: EnvironmentVars) {
     options: { introspection: true },
   })
 
-  //starts the cron jobs
-  startCron({
-    api: { ...api.CRON, module },
-    async context() {
-      return {
-        envs,
-        request: { driver: 'cron' } as const,
-        operationId: randomUUID(),
-        setHeader(key, value) {},
-      }
-    },
-  })
   return server
 }
 

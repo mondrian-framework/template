@@ -10,7 +10,6 @@
     "@templatetitle/core": "*",
     "@templatetitle/interface": "*",
     "@mondrian-framework/rest-fastify": "2.0.41",
-    "@mondrian-framework/cron": "2.0.41",
     "@mondrian-framework/graphql-yoga": "2.0.41",
     "@prisma/instrumentation": "5.13.0",
     "@opentelemetry/exporter-trace-otlp-grpc": "0.51.1",
