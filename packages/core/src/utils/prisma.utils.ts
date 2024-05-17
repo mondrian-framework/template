@@ -9,6 +9,10 @@ class TransactionError<T> extends Error {
   }
 }
 
+/**
+ * Execute many operations in a single transaction.
+ * This utility is useful when you need to abort the transaction in case of a fail return.
+ */
 export async function transact<T>(
   prisma: CustomPrismaClient,
   f: (tx: CustomPrismaClient) => Promise<T>,
