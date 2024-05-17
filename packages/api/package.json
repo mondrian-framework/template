@@ -16,6 +16,6 @@
     "@opentelemetry/exporter-metrics-otlp-grpc": "0.51.1",
     "@opentelemetry/exporter-logs-otlp-grpc": "0.51.1",
     "fastify": "4.26.2",
-    "@fastify/static": "7.0.3"
+    "@fastify/static": "7.0.4"
   }
 }
