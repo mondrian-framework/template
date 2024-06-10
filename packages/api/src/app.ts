@@ -46,12 +46,12 @@ function createServer(envs: EnvironmentVars) {
       }
       return { status: 500, body: 'Internal server error' } //hide details
     },
-    options: { introspection: { path: '/openapi' } },
+    options: { introspection: { path: '/openapi', ui: 'swagger' } },
   })
   serveGraphql({
     server,
     api: { ...api.GRAPHQL, module },
-    context: buildContextFromRequest,
+    context: ({ fastify: { reply, request } }) => buildContextFromRequest({ request, reply }),
     async onError({ error, functionName }) {
       //Here we can handle the unexpected errors coming from functions, should not happen
       if (envs.ENVIRONMENT === 'develop') {
