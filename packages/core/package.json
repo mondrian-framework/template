@@ -16,7 +16,7 @@
   "dependencies": {
     "@mondrian-framework/model": "2.0.63",
     "@mondrian-framework/module": "2.0.63",
-    "@prisma/client": "5.13.0",
+    "@prisma/client": "5.22.0",
     "prisma": "5.13.0",
     "jsonwebtoken": "9.0.2",
     "axios": "1.6.8",
