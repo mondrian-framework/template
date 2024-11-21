@@ -11,7 +11,7 @@
     "@templatetitle/interface": "*",
     "@mondrian-framework/rest-fastify": "2.0.63",
     "@mondrian-framework/graphql-yoga": "2.0.63",
-    "@prisma/instrumentation": "5.13.0",
+    "@prisma/instrumentation": "5.22.0",
     "@opentelemetry/exporter-trace-otlp-grpc": "0.51.1",
     "@opentelemetry/exporter-metrics-otlp-grpc": "0.51.1",
     "@opentelemetry/exporter-logs-otlp-grpc": "0.51.1",
