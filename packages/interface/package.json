@@ -8,9 +8,9 @@
   },
   "keywords": [],
   "dependencies": {
-    "@mondrian-framework/model": "2.0.46",
-    "@mondrian-framework/module": "2.0.46",
-    "@mondrian-framework/rest": "2.0.46",
-    "@mondrian-framework/graphql": "2.0.46"
+    "@mondrian-framework/model": "2.0.63",
+    "@mondrian-framework/module": "2.0.63",
+    "@mondrian-framework/rest": "2.0.63",
+    "@mondrian-framework/graphql": "2.0.63"
   }
 }
