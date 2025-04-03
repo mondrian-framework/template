@@ -1,3 +1,4 @@
+import './opentelemetry.js'
 import { serveWithFastify as serveGraphql } from '@mondrian-framework/graphql-yoga'
 import { module as m } from '@mondrian-framework/module'
 import { serve as serveRest } from '@mondrian-framework/rest-fastify'

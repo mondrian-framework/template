@@ -1,5 +1,5 @@
 import { graphql } from '@mondrian-framework/graphql'
-import { module } from '../'
+import { module } from '../index.js'
 
 /*
  * Here we are defining the graphql API. Just define which functions you want to expose through graphql.

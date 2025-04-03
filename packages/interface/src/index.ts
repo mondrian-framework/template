@@ -6,7 +6,7 @@
  * - api definitions
  */
 
-export { module } from './module'
-export { functions, Functions } from './functions'
-export * as types from './types'
-export * as api from './api'
+export { module } from './module.js'
+export { functions, Functions } from './functions/index.js'
+export * as types from './types/index.js'
+export * as api from './api/index.js'

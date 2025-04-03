@@ -1,2 +1,2 @@
-export { module } from './module'
-export { EnvironmentVars } from './envs/envs.type'
+export { module } from './module.js'
+export { EnvironmentVars } from './envs/envs.type.js'

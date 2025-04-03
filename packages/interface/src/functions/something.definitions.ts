@@ -1,6 +1,6 @@
 import { model } from '@mondrian-framework/model'
 import { error, functions } from '@mondrian-framework/module'
-import { SomeEntity, BadRequest, Unauthorized } from '../types'
+import { SomeEntity, BadRequest, Unauthorized } from '../types/index.js'
 
 /*
  * Here we can define any other functions that we want to use in our service

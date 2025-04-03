@@ -1,5 +1,5 @@
 import { rest } from '@mondrian-framework/rest'
-import { module } from '../'
+import { module } from '../index.js'
 
 /*
  * Here we are defining the REST API. Just define which functions you want to expose through REST.

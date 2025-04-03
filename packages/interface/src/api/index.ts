@@ -1,2 +1,2 @@
-export * from './graphql'
-export * from './rest'
+export * from './graphql.js'
+export * from './rest.js'

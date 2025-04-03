@@ -1,5 +1,5 @@
 import { functions as fn } from '@mondrian-framework/module'
-import * as something from './something.definitions'
+import * as something from './something.definitions.js'
 
 /*
  * Here we import all functions definitions and merge them to a single object and a single type

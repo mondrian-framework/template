@@ -1,4 +1,4 @@
-import { getSdk, initializeTestEnvs } from './utils'
+import { getSdk, initializeTestEnvs } from './utils.js'
 
 beforeAll(async () => {
   await initializeTestEnvs()
