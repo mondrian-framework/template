@@ -1,5 +1,5 @@
 import { module as moduleInterface } from '@templatetitle/interface'
-import { Functions, functions } from './functions'
+import { Functions, functions } from './functions/index.js'
 import { decoding } from '@mondrian-framework/model'
 
 export const module: ReturnType<typeof moduleInterface.implement<Functions>> = moduleInterface.implement({

@@ -1,5 +1,5 @@
 import { model } from '@mondrian-framework/model'
-import { ObjectId } from './scalars.types'
+import { ObjectId } from './scalars.types.js'
 
 /*
  * Here we are defining all the types that will be used in the module.

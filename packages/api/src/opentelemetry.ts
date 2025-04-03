@@ -74,7 +74,7 @@ const sdk = new opentelemetry.NodeSDK({
   spanProcessor: new SimpleSpanProcessor(traceExporter),
   traceExporter,
   metricReader,
-  logRecordProcessor,
+  logRecordProcessors: [logRecordProcessor],
   instrumentations: [
     /*new PrismaInstrumentation()*/
   ],

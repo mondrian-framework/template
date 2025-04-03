@@ -1,16 +1,22 @@
 {
   "name": "@templatetitle/interface",
   "version": "0.0.0",
+  "type": "module",
   "main": "build/src/index.js",
-  "types": "build/src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./build/src/index.d.ts",
+      "import": "./build/src/index.js"
+    }
+  },
   "scripts": {
     "build": "tsc -p tsconfig.build.json"
   },
   "keywords": [],
   "dependencies": {
-    "@mondrian-framework/model": "2.0.63",
-    "@mondrian-framework/module": "2.0.63",
-    "@mondrian-framework/rest": "2.0.63",
-    "@mondrian-framework/graphql": "2.0.63"
+    "@mondrian-framework/model": "2.0.69",
+    "@mondrian-framework/module": "2.0.69",
+    "@mondrian-framework/rest": "2.0.69",
+    "@mondrian-framework/graphql": "2.0.69"
   }
 }

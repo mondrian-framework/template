@@ -1,5 +1,5 @@
 import { functions as fn } from '@mondrian-framework/module'
-import * as something from './something.functions'
+import * as something from './something.functions.js'
 
 export type Functions = typeof something /* & typeof something2 */
 

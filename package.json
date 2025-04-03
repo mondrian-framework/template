@@ -2,6 +2,7 @@
   "name": "@templatetitle/root",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "start": "npm run start --workspace=@templatetitle/api",
     "generate": "npm run generate --workspaces --if-present",

@@ -1,5 +1,5 @@
 import { module as m } from '@mondrian-framework/module'
-import { Functions, functions } from './functions'
+import { Functions, functions } from './functions/index.js'
 
 /*
  * Here we are defining the module by passing all the functions that we have defined

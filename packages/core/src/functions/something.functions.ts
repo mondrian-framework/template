@@ -1,6 +1,6 @@
 import { result } from '@mondrian-framework/model'
 import { functions } from '@templatetitle/interface'
-import { authGuard, dbProvider, setTotalCountProvider } from '../providers'
+import { authGuard, dbProvider, setTotalCountProvider } from '../providers.js'
 
 export const createEntity = functions.createEntity.use({ providers: { db: dbProvider }, guards: { authGuard } }).implement({
   async body({ input: { field1 }, retrieve, db: { prisma } }) {
