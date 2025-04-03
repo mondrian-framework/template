@@ -17,7 +17,7 @@
   },
   "keywords": [],
   "devDependencies": {
-    "@types/jsonwebtoken": "9.0.5"
+    "@types/jsonwebtoken": "9.0.9"
   },
   "dependencies": {
     "@mondrian-framework/model": "2.0.69",
