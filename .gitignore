@@ -7,10 +7,9 @@ node_modules/**
 coverage
 **/ysconfig.tsbuildinfo
 **/*.generated.ts
-**/.env.*
-**/.env
 .vscode/settings.json
 .npmrc
 packages/api/.env-dev
 packages/api/.env-stage
 packages/api/.env-stage-test
+config.bat
