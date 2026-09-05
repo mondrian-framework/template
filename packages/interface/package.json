@@ -17,6 +17,6 @@
     "@mondrian-framework/model": "2.0.69",
     "@mondrian-framework/module": "2.0.69",
     "@mondrian-framework/rest": "2.0.69",
-    "@mondrian-framework/graphql": "2.0.69"
+    "@mondrian-framework/graphql": "2.0.70"
   }
 }
