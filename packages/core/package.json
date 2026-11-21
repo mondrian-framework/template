@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@mondrian-framework/model": "2.0.69",
-    "@mondrian-framework/module": "2.0.69",
+    "@mondrian-framework/module": "2.0.70",
     "@prisma/client": "6.5.0",
     "prisma": "6.5.0",
     "jsonwebtoken": "9.0.2",
